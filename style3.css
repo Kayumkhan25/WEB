@@ -1,0 +1,48 @@
+* {
+    font-family: Courier New;
+}
+
+h1 {
+    color: #1b74e4;
+}
+
+#searchbtn {
+    background-color: black;
+    color: #ffffff;
+}
+
+.userbtn {
+    background-color: aqua;
+}
+
+button:hover {
+    background-color: red;
+}
+
+h1::first-letter {
+    font-style: italic;
+}
+
+h1::selection {
+    text-decoration: underline !important;
+}
+
+div {
+    background-color: yellow;
+}
+
+input[type=password]:hover {
+    background-color: inherit;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+input[type="radio"] :checked+label {
+    color: darkgreen;
+}
+
+button:active {
+    color: Yellow;
+}

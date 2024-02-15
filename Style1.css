@@ -1,0 +1,16 @@
+div[id="myid"] p {
+    color: #21ac05;
+}
+
+nav ul li a {
+    color: #0b792a;
+    text-decoration: none;
+}
+
+div input {
+    background-color: #111111;
+}
+
+.upvote+button {
+    background-color: aqua;
+}

@@ -1,0 +1,53 @@
+#v {
+    background-color: #ee82ee;
+}
+
+#i {
+    background-color: #4b0082;
+}
+
+#b {
+    background-color: #0000ff;
+}
+
+#g {
+    background-color: #00ff00;
+}
+
+#y {
+    background-color: #ffff00;
+}
+
+#o {
+    background-color: #ffa500;
+    align-self: flex-start;
+    /* flex-basis: 700px;*/
+    flex-shrink: 1;
+}
+
+#r {
+    background-color: #ff0000;
+}
+
+#contain {
+    background-color: aqua;
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    /*text in the div is at same line in baseline*/
+    align-items: baseline;
+    align-content: center;
+}
+
+#contain div {
+    height: 70px;
+    width: 300px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+}
